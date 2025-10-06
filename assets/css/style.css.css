@@ -1,0 +1,261 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+}
+.brand img {
+    height: 50px;
+    width: 50px;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a button {
+    padding: 10px;
+    background: darkslateblue;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+}
+.header {
+    height: 90px;
+    width: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    height: 70px;
+    width: 300px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul {
+    height: 70px;
+    width: 700px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main {
+    height: 500px;
+    width: auto;
+    /* border: 2px solid red; */
+    background: url(https://highperformancestory.com/wp-content/uploads/2019/06/high-com-bg-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    height: 300px;
+    width: 400px;
+    /* border: 2px solid blue; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.image {
+    height: 500px;
+    width: 500px;
+    /* border: 2px solid blue; */
+}
+.image img {
+    height: 500px;
+    width: 500px;
+}
+.main .content .buttons button {
+    padding: 10px;
+}
+.main .content .buttons .B1 {
+    background: darkslateblue;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.main .content .buttons .B2 {
+    background: white;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+}
+.footer {
+    height: 15%;
+    width:auto;
+    /* border: 2px solid red; */
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .getintouch {
+    height: 85%;
+    width : 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer .web {
+    height: 85%;
+    width: 15%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .message {
+    height: 85%;
+    width: 15%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .getintouch .icons {
+    height: 40%;
+    width: 30%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .webmes {
+    height: 85%;
+    width: 15%;
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+}
+@media (max-width: 320px) {
+    .main {
+        height: 1700px;
+        width: 999px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main .content {
+        height: 1000px;
+        width: 600px;
+        font-size: 40px;
+        /* border: 2px solid white; */
+    }
+    .main .content .buttons button {
+        padding: 20px;
+    }
+    .main .content .buttons .B1 {
+        font-size: 40px;
+    }
+    .main .content .buttons .B2 {
+        font-size: 40px;
+    }
+    .image {
+        height: 748px;
+        width: 748px;
+        /* border: 2px solid white;  */
+    }
+    .image img {
+        height: 748px;
+        width: 748px;
+    }
+    .footer {
+        height: 600px;
+        width: 999px;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        /* background-attachment: fixed; */
+    }
+    .footer .getintouch {
+        height: 200px;
+        width: 700px;
+        /* border: 2px solid white; */
+        font-size: 30px;
+        align-items: center;
+    }
+    .footer .getintouch .icons {
+        height: 40%;
+        width: 60%;
+        /* border: 2px solid white; */
+    }
+    .footer .getintouch .icons svg {
+        height: 50px;
+        width: 50px;
+    }
+    .footer .webmes {
+        height: 300px;
+        width: 700px;
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 30px;
+    }
+    .footer .webmes svg {
+        height: 50px;
+        width: 50px;
+    }
+    .header {
+        height: 200px;
+        width: 999px;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .brand {
+        height: 100px;
+        width: 900px;
+        /* border: 2px solid red; */
+        font-size: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .header .nav {
+        height: 100px;
+        width: 900px;
+        /* border: 2px solid red; */
+    }
+    .header .brand img {
+        height: 80px;
+        width: 80px;
+    }
+    .header .nav ul li a {
+        font-size: 25px;
+    }
+    .header .nav ul li a button {
+        font-size: 25px;
+    }
+    .nav ul {
+        height: 100px;
+        width: 900px;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    }
+
